@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido Pizzaria HTML</title>
+  </head>
+  <body>
+    <form>
+      <h1>Menu Pizzaria</h1>
+      <hr />
+      <h3>Sabores</h3>
+      <input type="checkbox" name="Sabor[]" value="Calabresa" />Calabresa<br />
+      <input type="checkbox" name="Sabor[]" value="Frango" />Frango<br />
+      <input
+        type="checkbox"
+        name="Sabor[]"
+        value="Portuguesaa"
+      />Portuguesa<br />
+      <input type="checkbox" name="Sabor[]" value="Provolone" />Provolone<br />
+      <input type="checkbox" name="Sabor[]" value="Palmito" />Palmito<br />
+      <input type="checkbox" name="Sabor[]" value="Lombo" />Lombo<br />
+
+      <hr />
+
+      <h3>Bordas Recheadas?</h3>
+      <input type="radio" name="borda" value="sim" />Sim<br />
+      <input type="radio" name="borda" value="nao" />Não<br />
+
+      <hr />
+
+      <h3>Recheio das Bordas</h3>
+      <input type="radio" name="recheio" />Catupiry<br />
+      <input type="radio" name="recheio" />Cheddar<br />
+
+      <hr />
+
+      <h3>Bedidas</h3>
+      <input
+        type="checkbox"
+        name="Bebidas[]"
+        value="Refrigerante"
+      />Refrigerante<br />
+      <input type="checkbox" name="Bebidas[]" value="Suco" />Suco<br />
+      <input type="checkbox" name="Bebidas[]" value="Agua" />Água<br />
+      <input type="checkbox" name="Bebidas[]" value="nothing" />Não, obrigado<br />
+
+      <hr />
+
+      <h3>Forma de Pagamento</h3>
+      <input type="radio" name="payment" value="dinheiro" />Dinheiro<br />
+      <input type="radio" name="payment" value="cartao" />Cartão de
+      Débito/Crédito<br />
+
+      <hr />
+
+      Insira seu endereço: <br />
+      Rua:<input required type="text" /><br />
+      Número:<input required type="number" /><br />
+      Bairro:<input type="text" required /><br />
+      Complemento:<input type="text" /><br />
+      <br />
+
+      <button type="submit">Enviar Pedido</button><br />
+      <button type="reset">Limpar</button><br />
+    </form>
+  </body>
+</html>
